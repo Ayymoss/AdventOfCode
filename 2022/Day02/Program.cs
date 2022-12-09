@@ -8,7 +8,6 @@ public class DayTwo
     {
         var lines = File.ReadAllLines("C:\\TEMP\\input.txt");
         var regex = new Regex(@"^(\w) (\w)$");
-
         var tally = 0;
 
         foreach (var line in lines)

@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2022", "2022", "{F4A2680E-8
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03", "2022\Day03\Day03.csproj", "{147AD905-B9F3-4519-B928-678EB1609652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +19,13 @@ Global
 		{E5B01B1F-C89E-4AA7-AE9F-3282E2C3F24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B01B1F-C89E-4AA7-AE9F-3282E2C3F24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B01B1F-C89E-4AA7-AE9F-3282E2C3F24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147AD905-B9F3-4519-B928-678EB1609652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147AD905-B9F3-4519-B928-678EB1609652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147AD905-B9F3-4519-B928-678EB1609652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147AD905-B9F3-4519-B928-678EB1609652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E5B01B1F-C89E-4AA7-AE9F-3282E2C3F24E} = {F4A2680E-8E9B-45E3-92D6-D3E7C91875EA}
+		{147AD905-B9F3-4519-B928-678EB1609652} = {F4A2680E-8E9B-45E3-92D6-D3E7C91875EA}
 	EndGlobalSection
 EndGlobal
