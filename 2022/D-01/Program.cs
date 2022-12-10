@@ -10,7 +10,6 @@ public static class Program
         foreach (var line in input)
         {
             var elf = elfDict.ContainsKey(index);
-
             if (!elf) elfDict.Add(index, new Elf());
 
             if (line is not "") elfDict[index].Foods.Add(int.Parse(line));
@@ -30,9 +29,9 @@ public static class Program
             highestIndex = elf.Key;
         }
 
-        var ordered = elfDict.OrderByDescending(elf => elf.Value.Calories).ToList();
-        var topThree = ordered.Take(3).ToList();
-        var topThreeTotal = topThree.Sum(elf => elf.Value.Calories);
+        var topThreeTotal = elfDict.OrderByDescending(elf => elf.Value.Calories)
+            .Take(3)
+            .Sum(elf => elf.Value.Calories);
 
         Console.WriteLine($"Highest calories: {highestCalories} - " +
                           $"Elf: {highestIndex} - " +
