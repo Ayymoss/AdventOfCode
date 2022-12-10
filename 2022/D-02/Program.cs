@@ -2,7 +2,7 @@
 
 namespace AdventOfCode;
 
-public class DayTwo
+public static class Program
 {
     public static void Main()
     {
